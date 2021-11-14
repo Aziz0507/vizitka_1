@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+body{
+	background-color: #000;
+}
+a{
+	text-decoration: none;
+}
+.foto_z{
+	position: absolute;
+}
+.panel{
+	/* position: absolute; */
+	font-size: 19px;
+	word-spacing: 30px; /**/
+	width: 100%;
+}
+.panel-d
+{
+	display: flex;
+	width: 100%;
+}
+.privet{
+	margin-left: 170px;
+}
+.info, .work , .orders, .companiya{
+	color:#fff;
+}
+.info{
+	margin-left: 38%;
+}
+.info:hover{
+	font-size: 30px;
+	color: red;
+	border: 3px double blue;
+}
+.work:hover{
+	font-size: 30px;
+	color: blue;
+	border: 3px double red;
+}
+.orders:hover{
+	font-size: 30px;
+	color: blue;
+	border: 3px double red;
+}
+.companiya:hover{
+	font-size: 30px;
+	color: red;
+	border: 3px double blue;
+}
+h1{
+	color:#fff;
+	
+}
+h2, h3, h5, h4{
+	color: white;
+	margin-left: 7%;
+
+}
+hr{
+	margin-left: 95px;
+}
+
+.foto{
+	position: absolute;
+	margin-left: 60%;
+	margin-top: 0%;
+	margin-bottom: 10px;
+}
+.sot_set{
+	font-size: 25px;
+}
+.set1:hover{
+	margin-left: 125px;
+	color:red;
+}
+.set2:hover{
+	margin-left: 125px;
+	color: #FF1493;
+}
+.set3:hover{
+	margin-left: 125px;
+	color: #20B2AA;
+}
+.zakaz{
+	background-color: red;
+	color: #fff;
+	width: 200px;
+	padding:  15px;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: -120px;
+	border-left: 5vh;
+	border-right:5vh;
+	font-family: 'Open Sans', sans-serif;
+}
+.zakaz:hover{
+	background-color: blue;
+	color: #00FF00;
+}
+.zakaz:focus{
+	color: #00FFFF;
+	background-color: #FF0000;
+}
+.red, .blue, .green{
+	color: blue;
+}
+.privet{
+	margin-top: 5%;
+}
+#input_poisk {
+	width: 15%;
+	padding: 15px;
+	/* padding-top: 0; */
+	height: 10%;
+}
+.show{
+	display: block;
+	transition: 1s all ease-in;
+}
+.hide{
+	display: none;
+	transition: 1s all ease-in;
+}
+.muzika{
+	text-align: center;
+}
+.muzika audio{
+	
+	font-size: 15%;
+	border: #FF0000 solid 10px;
+	border-radius: 100%;
+	width: 10%;
+	/* height: auto; */
+	padding: 15px;
+	/* background-color: aqua */
+}

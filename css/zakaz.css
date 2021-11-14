@@ -1,0 +1,140 @@
+body{
+	background-color: #000;
+}
+.panel-d
+{
+	display: flex;
+	width: 100%;
+}
+.foto_z{
+	position: absolute;
+}
+.panel{
+	font-size: 19px;
+	word-spacing: 30px; /**/
+	width: 100%;
+}
+.info, .work , .orders, .companiya, .imya, .familia{
+	color:#fff;
+}
+.familia{
+	margin-left: 5px;
+}
+a{
+	text-decoration: none;
+}
+.info{
+	margin-left: 38%;
+}
+.info:hover{
+	font-size: 30px;
+	color: red;
+	border: 3px double blue;
+}
+.work:hover{
+	font-size: 30px;
+	color: blue;
+	border: 3px double red;
+}
+.orders:hover{
+	font-size: 30px;
+	color: blue;
+	border: 3px double red;
+}
+.companiya:hover{
+	font-size: 30px;
+	color: red;
+	border: 3px double blue;
+}
+.zakaz{
+	margin-top: 50%;
+}
+.text{
+	color: #fff;
+	margin-top: 3%;
+	margin-left: 40%;
+}
+.imya{
+	margin-left: 5.5%;
+}
+.familia1{
+	margin-left: 50%;
+	margin-top: -16%;
+}
+.imya_input{
+	margin-left: 5%;
+	height: 40px;
+	width: 40%;
+	font-size: 15px;
+}
+.familiya_input{
+	height: 40px;
+	width: 90%;
+	font-size: 15px;
+}
+.name{
+	background: #696969; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    width: 50%;
+	justify-content: space-around;
+	border-radius: 3%;
+	margin-left: 1%;
+}
+.koment{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	border-radius: 10%;
+}
+.login_input{
+	height: 40px;
+	width: 40%;
+	font-size: 15px;
+	margin-left: 5%;
+}
+.parol1{
+	margin-left: 50%;
+	margin-top: -16%;
+}
+.parol_input{
+	height: 40px;
+	width: 40%;
+}
+.parol_input{
+	height: 40px;
+	width: 90%;
+	font-size: 15px;	
+}
+.kontackt{
+	margin-left: 60%;
+	margin-top: -25%;
+	color: #fff;
+	font-size: 120%;
+}
+.zadacha_input{
+	width: 80%;
+	height: 120px;
+	margin-left: 5%;
+}
+.otpravit{
+	margin-left: 62.5%;
+}
+.zakaz1, .login{
+	margin-left: 5.5%;
+}
+.nomer{
+	margin-left: 6%;
+}
+.mesto:hover{
+	color: #00FFFF;
+	margin-left: 7%;
+}
+.nomer_tel:hover{
+	color:#FF00FF;
+	margin-left: 7%;
+}
+.pochta:hover{
+	color:#00FF00;
+	margin-left: 7%;
+}

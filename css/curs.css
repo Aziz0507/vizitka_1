@@ -1,0 +1,82 @@
+body{
+	background-color: #000;
+}
+.panel-d
+{
+	display: flex;
+	width: 100%;
+}
+.foto_z{
+	position: absolute;
+}
+.panel{
+	font-size: 19px;
+	word-spacing: 30px; /**/
+	width: 100%;
+}
+.info, .work , .orders, .companiya{
+	color:#fff;
+}
+a{
+	text-decoration: none;
+}
+.info{
+	margin-left: 38%;
+}
+.info:hover{
+	font-size: 30px;
+	color: red;
+	border: 3px double blue;
+}
+.work:hover{
+	font-size: 30px;
+	color: blue;
+	border: 3px double red;
+}
+.orders:hover{
+	font-size: 30px;
+	color: blue;
+	border: 3px double red;
+}
+.companiya:hover{
+	font-size: 30px;
+	color: red;
+	border: 3px double blue;
+}
+.remont{
+	margin-left: 30%;
+	margin-top: 7%;
+}
+.zakritot{
+	width: 400px;
+	margin-left: 80px;
+}
+.tex_work{
+	color: red;
+	width: 200px;
+	padding:  15px;
+	border-left: 5vh;
+	border-right: 5vh;
+}
+.plata{
+	margin-left: 82%;
+	margin-top: 5%;
+}
+.plata_index{
+	background-color: crimson;
+	border-color: crimson;
+	color: cyan;
+	padding: 10px;
+	margin-left: 30px;
+}
+.plata_index:focus{
+	background-color: red;
+	border-color: red;
+	color: rgb(0, 255, 179);
+	box-shadow: 0 0 13px grey;
+}
+.uroki_onlayb{
+	padding-top: 35px;
+	display: flex;
+	justify-content:space-evenly; 
+}

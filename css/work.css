@@ -1,0 +1,94 @@
+body{
+	background-color: #000;
+}
+a{
+	text-decoration: none;
+}
+.foto_z{
+	position: absolute;
+}
+.panel{
+	font-size: 19px;
+	word-spacing: 30px; /**/
+	width: 100%;
+}
+.text
+{
+	word-wrap: break-word;
+	width: 290px;
+	color: #fff;
+}
+.text2{
+	word-wrap: break-word;
+	width: 390px;
+	color: #fff;
+
+ }
+.sayt1{
+	width: 90%;
+	height: auto;
+	margin-top: 70px;
+}
+.zadaniya{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	margin-left: 40px;
+}
+.panel-d
+{
+	display: flex;
+	width: 100%;
+}
+.info, .work , .orders, .companiya{
+	color:#fff;
+}
+.info{
+	margin-left: 38%;
+}
+.info:active{
+	color: yellow;
+}
+.info:hover{
+	font-size: 30px;
+	color: red;
+	border: 3px double blue;
+}
+.work:hover{
+	font-size: 30px;
+	color: blue;
+	border: 3px double red;
+}
+.orders:hover{
+	font-size: 30px;
+	color: blue;
+	border: 3px double red;
+}
+.companiya:hover{
+	font-size: 30px;
+	color: red;
+	border: 3px double blue;
+}
+.rabota{
+	width:90%;
+	height: auto;
+	margin-top: 70px;
+	/* margin-left: 0px; */
+}
+.rabota:hover{
+	box-shadow: 0 0 10px grey;
+}
+.sayt1:hover{
+	box-shadow: 0 0 10px grey;
+}
+.portfolio:hover{
+	box-shadow: grey 0 0 10px;
+}
+.portfolio{
+	width: 90%;
+	height: auto;
+	margin-top: 70px;
+}
+.text3{
+	width: 95%;
+}
